@@ -1,0 +1,33 @@
+name: "Analyze Code - CodeQL"
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+    branches:
+      - "**"
+    types:
+      - "opened"
+      - "edited"
+      - "reopened"
+      - "synchronize"
+  workflow_dispatch:
+jobs:
+  analyze-code-codeql:
+    name: "Analyze Code - CodeQL"
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "Checkout Repository"
+        uses: "actions/checkout@v3.0.2"
+        with:
+          fetch-depth: 0
+      - name: "Initialize CodeQL"
+        uses: "github/codeql-action/init@v2"
+        with:
+          queries: "+security-and-quality"
+      # Automatically build attempts to build any compiled languages (C/C++, C#, or Java).
+      - name: "Automatically Build"
+        uses: "github/codeql-action/autobuild@v2"
+        continue-on-error: true
+      - name: "Analyze Repository"
+        uses: "github/codeql-action/analyze@v2"

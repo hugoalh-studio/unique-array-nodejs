@@ -1,0 +1,18 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"allowJs": true,
+		"declaration": true,
+		"declarationMap": true,
+		"emitDeclarationOnly": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"outDir": "./@types",
+		"target": "ESNext"
+	},
+	"include": [
+		"./lib/**/*.js",
+		"./lib/**/*.mjs",
+		"./lib/**/*.ts"
+	]
+}

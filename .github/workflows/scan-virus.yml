@@ -1,0 +1,32 @@
+name: "Scan Virus"
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+    branches:
+      - "**"
+    types:
+      - "opened"
+      - "edited"
+      - "reopened"
+      - "synchronize"
+  workflow_dispatch:
+    inputs:
+      git_deep:
+        description: "{boolean} Scan deeper for Git repository."
+        required: false
+        default: "true"
+jobs:
+  scan-virus:
+    name: "Scan Virus"
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: "Checkout Repository"
+        uses: "actions/checkout@v3.0.2"
+        with:
+          fetch-depth: 0
+      - name: "Scan Repository"
+        uses: "hugoalh/scan-virus-ghaction@v0.6.2"
+        with:
+          git_deep: "${{github.event.inputs.git_deep || 'false'}}"

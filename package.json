@@ -1,0 +1,34 @@
+{
+	"name": "@hugoalh/unique-array",
+	"version": "1.0.0",
+	"description": "A module to cause arrays have unique elements by remove all of the duplicated elements in the array.",
+	"keywords": [
+		"array",
+		"unique"
+	],
+	"homepage": "https://github.com/hugoalh-studio/unique-array-nodejs#readme",
+	"bugs": {
+		"url": "https://github.com/hugoalh-studio/unique-array-nodejs/issues"
+	},
+	"license": "MIT",
+	"author": "hugoalh",
+	"main": "./lib/main.js",
+	"module": "./lib/main.mjs",
+	"exports": {
+		"import": "./lib/main.mjs",
+		"require": "./lib/main.js"
+	},
+	"types": "./@types/main.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hugoalh-studio/unique-array-nodejs.git"
+	},
+	"dependencies": {
+		"@hugoalh/advanced-determine": "^7.1.0"
+	},
+	"engines": {
+		"node": ">= 14.15.0",
+		"npm": ">= 6.14.8"
+	},
+	"private": false
+}
