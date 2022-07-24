@@ -20,7 +20,7 @@
 
 ## 📝 Description
 
-A NodeJS module to cause arrays have unique elements by remove all of the duplicated elements in the array.
+A NodeJS module to return unique array elements by ignore all of the duplicated elements.
 
 ## 📚 Documentation
 

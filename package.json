@@ -1,7 +1,7 @@
 {
 	"name": "@hugoalh/unique-array",
 	"version": "1.0.0",
-	"description": "A module to cause arrays have unique elements by remove all of the duplicated elements in the array.",
+	"description": "A module to return unique array elements by ignore all of the duplicated elements.",
 	"keywords": [
 		"array",
 		"unique"
