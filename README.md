@@ -9,8 +9,6 @@
 [![GitHub Forks](https://img.shields.io/github/forks/hugoalh-studio/unique-array-nodejs?label=Forks&logo=github&logoColor=ffffff&style=flat-square)](https://github.com/hugoalh-studio/unique-array-nodejs/network/members)
 ![GitHub Languages](https://img.shields.io/github/languages/count/hugoalh-studio/unique-array-nodejs?label=Languages&logo=github&logoColor=ffffff&style=flat-square)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/hugoalh-studio/unique-array-nodejs?label=Grade&logo=codefactor&logoColor=ffffff&style=flat-square)](https://www.codefactor.io/repository/github/hugoalh-studio/unique-array-nodejs)
-[![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/hugoalh-studio/unique-array-nodejs?label=Alerts&logo=lgtm&logoColor=ffffff&style=flat-square)
-![LGTM Grade](https://img.shields.io/lgtm/grade/javascript/g/hugoalh-studio/unique-array-nodejs?label=Grade&logo=lgtm&logoColor=ffffff&style=flat-square)](https://lgtm.com/projects/g/hugoalh-studio/unique-array-nodejs)
 [![License](https://img.shields.io/static/v1?label=License&message=MIT&style=flat-square)](./LICENSE.md)
 
 | **Release** | **Latest** (![GitHub Latest Release Date](https://img.shields.io/github/release-date/hugoalh-studio/unique-array-nodejs?label=%20&style=flat-square)) | **Pre** (![GitHub Latest Pre-Release Date](https://img.shields.io/github/release-date-pre/hugoalh-studio/unique-array-nodejs?label=%20&style=flat-square)) |
