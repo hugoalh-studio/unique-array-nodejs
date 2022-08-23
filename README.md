@@ -20,7 +20,7 @@
 
 A NodeJS module to return unique array elements by ignore all of the duplicated elements.
 
-*This project is separated from `more-method`'s function `removeDuplicate`.*
+*This project is separated from `@hugoalh/more-method`'s ([GitHub](https://github.com/hugoalh-studio/more-method-nodejs))([NPM](https://www.npmjs.com/package/@hugoalh/more-method)) function `removeDuplicate`.*
 
 ## 📚 Documentation
 
