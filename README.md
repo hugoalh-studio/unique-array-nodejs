@@ -53,7 +53,7 @@ import uniqueArray from "@hugoalh/unique-array";
 #### Function
 
 ```ts
-uniqueArray(item: any[], ignoreReferences: boolean = false/* Whether to compare objects without compare their reference points. */): any[]
+uniqueArray(item: any[], ignoreReferences: boolean = false/* Whether to compare objects without compare their reference points. */): unknown[]
 ```
 
 ### Example

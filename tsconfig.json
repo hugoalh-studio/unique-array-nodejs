@@ -4,9 +4,13 @@
 		"allowJs": true,
 		"declaration": true,
 		"declarationMap": true,
+		"emitBOM": false,
 		"emitDeclarationOnly": true,
-		"module": "esnext",
-		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"newLine": "crlf",
+		"noImplicitUseStrict": true,
 		"target": "ESNext"
 	},
 	"include": [
