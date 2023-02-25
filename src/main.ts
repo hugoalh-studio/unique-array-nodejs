@@ -1,4 +1,4 @@
-const advancedDetermine = require("@hugoalh/advanced-determine");
+import { areEqual } from "@hugoalh/advanced-determine";
 /**
  * @function uniqueArray
  * @description Return unique array elements by ignore all of the duplicated elements.
@@ -7,26 +7,26 @@ const advancedDetermine = require("@hugoalh/advanced-determine");
  * @param {boolean} [ignoreReferences=false] Whether to compare objects without compare their reference points.
  * @returns {T[]} An array with unique elements.
  */
-function uniqueArray(item, ignoreReferences = false) {
+function uniqueArray<T>(item: T[], ignoreReferences = false): T[] {
 	if (!Array.isArray(item)) {
 		throw new TypeError(`Argument \`item\` must be type of array!`);
 	}
 	if (typeof ignoreReferences !== "boolean") {
 		throw new TypeError(`Argument \`ignoreReferences\` must be type of boolean!`);
 	}
-	let resultInitial = new Set(item);
+	let resultInitial: Set<T> = new Set(item);
 	if (
 		!ignoreReferences ||
 		resultInitial.size <= 1
 	) {
 		return Array.from(resultInitial.values());
 	}
-	let resultFinal = [];
+	let resultFinal: T[] = [];
 	for (let itemElement of resultInitial.values()) {
 		if (
 			resultFinal.length === 0 ||
-			!resultFinal.some((resultElement) => {
-				return advancedDetermine.areEqual(itemElement, resultElement);
+			!resultFinal.some((resultElement: T): boolean => {
+				return areEqual(itemElement, resultElement);
 			})
 		) {
 			resultFinal.push(itemElement);
@@ -34,4 +34,4 @@ function uniqueArray(item, ignoreReferences = false) {
 	}
 	return resultFinal;
 }
-module.exports = uniqueArray;
+export default uniqueArray;

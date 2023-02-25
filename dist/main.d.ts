@@ -1,4 +1,3 @@
-export = uniqueArray;
 /**
  * @function uniqueArray
  * @description Return unique array elements by ignore all of the duplicated elements.
@@ -8,4 +7,5 @@ export = uniqueArray;
  * @returns {T[]} An array with unique elements.
  */
 declare function uniqueArray<T>(item: T[], ignoreReferences?: boolean): T[];
+export default uniqueArray;
 //# sourceMappingURL=main.d.ts.map
