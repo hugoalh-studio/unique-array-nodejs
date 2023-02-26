@@ -43,18 +43,12 @@ import uniqueArray from "@hugoalh/unique-array";
 
 #### Function
 
-<ul>
-<li>
-
 ```ts
 uniqueArray(
   item: T[],
   ignoreReferences: boolean = false/* Whether to compare objects without compare their reference points. */
 ): T[];
 ```
-
-</li>
-</ul>
 
 ### Example
 
