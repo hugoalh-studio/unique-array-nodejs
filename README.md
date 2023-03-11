@@ -36,7 +36,7 @@ npm install @hugoalh/unique-array
 #### Use
 
 ```js
-import uniqueArray from "@hugoalh/unique-array";
+import uniqueArray from "@hugoalh/unique-array";// Default Import
 ```
 
 ### API
