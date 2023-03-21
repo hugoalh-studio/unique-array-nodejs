@@ -26,8 +26,8 @@
 		"@hugoalh/advanced-determine": "^10.2.1"
 	},
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.55.0",
-		"@typescript-eslint/parser": "^5.55.0",
+		"@typescript-eslint/eslint-plugin": "^5.56.0",
+		"@typescript-eslint/parser": "^5.56.0",
 		"eslint": "^8.36.0",
 		"eslint-plugin-only-warn": "^1.1.0",
 		"typescript": "^5.0.2"
