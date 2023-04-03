@@ -17,7 +17,7 @@
 
 ## 📝 Description
 
-A NodeJS module to return unique array elements by ignore all of the duplicated elements.
+A NodeJS module to return unique array elements without any duplicated elements by ignore their reference points.
 
 *This project is separated from `@hugoalh/more-method`'s ([GitHub](https://github.com/hugoalh-studio/more-method-nodejs))([NPM](https://www.npmjs.com/package/@hugoalh/more-method)) function `removeDuplicate`.*
 
@@ -44,21 +44,12 @@ import uniqueArray from "@hugoalh/unique-array";// Default Import
 #### Function
 
 ```ts
-uniqueArray(
-  item: T[],
-  ignoreReferences: boolean = false/* Whether to compare objects without compare their reference points. */
-): T[];
+uniqueArray<T>(item: T[]): T[];
 ```
 
 ### Example
 
 ```js
-uniqueArray([1, 1, 1, 2, 2, 3]);
-//=> [1, 2, 3]
-
 uniqueArray([{ foo: "bar" }, { foo: "bar" }, { bar: "gaz" }]);
-//=> [{ foo: "bar" }, { foo: "bar" }, { bar: "gaz" }]
-
-uniqueArray([{ foo: "bar" }, { foo: "bar" }, { bar: "gaz" }], true);
 //=> [{ foo: "bar" }, { bar: "gaz" }]
 ```
