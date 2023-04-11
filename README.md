@@ -23,17 +23,13 @@ A NodeJS module to return unique array elements without any duplicated elements 
 
 ## 📚 Documentation
 
-### Getting Started
-
-#### Install
+### Target
 
 - NodeJS ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0
 
 ```sh
 npm install @hugoalh/unique-array
 ```
-
-#### Use
 
 ```js
 import uniqueArray from "@hugoalh/unique-array";// Default Import
