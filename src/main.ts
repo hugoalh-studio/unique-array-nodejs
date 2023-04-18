@@ -2,7 +2,7 @@ import { areEqual } from "@hugoalh/advanced-determine";
 /**
  * @function uniqueArray
  * @description Return unique array elements without any duplicated elements by ignore their reference points.
- * @template {any} T
+ * @template {unknown} T
  * @param {T[]} item Array that need to have unique elements.
  * @returns {T[]} An array with unique elements.
  */
@@ -10,7 +10,7 @@ function uniqueArray<T>(item: T[]): T[] {
 	if (!Array.isArray(item)) {
 		throw new TypeError(`Argument \`item\` must be type of array!`);
 	}
-	let resultInitial: Set<T> = new Set(item);
+	let resultInitial: Set<T> = new Set<T>(item);
 	if (resultInitial.size <= 1) {
 		return Array.from(resultInitial.values());
 	}

@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@hugoalh/advanced-determine': ^10.3.3
+  '@hugoalh/advanced-determine': ^10.4.0
   '@typescript-eslint/eslint-plugin': ^5.59.0
   '@typescript-eslint/parser': ^5.59.0
   eslint: ^8.38.0
@@ -9,7 +9,7 @@ specifiers:
   typescript: ^5.0.4
 
 dependencies:
-  '@hugoalh/advanced-determine': 10.3.3
+  '@hugoalh/advanced-determine': 10.4.0
 
 devDependencies:
   '@typescript-eslint/eslint-plugin': 5.59.0_wsbkzerfphvgr4lle7vmeh64yi
@@ -57,8 +57,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@hugoalh/advanced-determine/10.3.3:
-    resolution: {integrity: sha512-+35mV+OySsSIRWvWWT8x1WE+l4NsQ6kGah81C8xUtku6UdBWQ0mk+wO+A6Yo37XlQn6e+hhboPL3gKFPO8iTPA==}
+  /@hugoalh/advanced-determine/10.4.0:
+    resolution: {integrity: sha512-RiB4RxIfP5XMTd64oQtxKu90rgVh7MwqyLBkxD9uyfq8fYZlPaZ62YasHs9P4QKrI7AX8YPqvUuqiRc0j13juQ==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.13.0}
     dependencies:
       '@hugoalh/undefinish': 1.0.21
