@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/unique-array",
-	"version": "3.0.0",
+	"version": "3.0.1",
 	"description": "A module to return unique array elements without any duplicated elements by ignore their reference points.",
 	"keywords": [
 		"array",
