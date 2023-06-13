@@ -1,4 +1,4 @@
-import { areEqual } from "@hugoalh/advanced-determine";
+import { deepStrictEqual } from "node:assert";
 /**
  * @function uniqueArray
  * @description Return unique array elements without any duplicated elements by ignore their reference points.
@@ -18,7 +18,13 @@ function uniqueArray(item) {
     for (let itemElement of resultInitial.values()) {
         if (resultFinal.length === 0 ||
             !resultFinal.some((resultElement) => {
-                return areEqual(itemElement, resultElement);
+                try {
+                    deepStrictEqual(itemElement, resultElement);
+                    return true;
+                }
+                catch {
+                    return false;
+                }
             })) {
             resultFinal.push(itemElement);
         }
