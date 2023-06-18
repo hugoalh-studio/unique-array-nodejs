@@ -18,7 +18,9 @@
 
 A NodeJS module to return unique array elements without any duplicated elements by ignore their reference points.
 
-*This project is separated from `@hugoalh/more-method`'s ([GitHub](https://github.com/hugoalh-studio/more-method-nodejs))([NPM](https://www.npmjs.com/package/@hugoalh/more-method)) function `removeDuplicate`.*
+> **🔗 Other Edition:**
+>
+> - [Deno](https://github.com/hugoalh-studio/unique-array-deno)
 
 ## 📚 Documentation
 

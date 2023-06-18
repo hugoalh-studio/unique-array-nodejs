@@ -2,7 +2,6 @@ lockfileVersion: 5.4
 
 specifiers:
   '@hugoalh/equal': ^1.0.1
-  '@types/node': ^20.3.1
   '@typescript-eslint/eslint-plugin': ^5.59.11
   '@typescript-eslint/parser': ^5.59.11
   eslint: ^8.43.0
@@ -13,7 +12,6 @@ dependencies:
   '@hugoalh/equal': 1.0.1
 
 devDependencies:
-  '@types/node': 20.3.1
   '@typescript-eslint/eslint-plugin': 5.59.11_pvitu2ol4qmol2rndkdcil6mvu
   '@typescript-eslint/parser': 5.59.11_7yfldhli4vs6yywnkyiujhawka
   eslint: 8.43.0
@@ -107,10 +105,6 @@ packages:
 
   /@types/json-schema/7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
-    dev: true
-
-  /@types/node/20.3.1:
-    resolution: {integrity: sha512-EhcH/wvidPy1WeML3TtYFGR83UzjxeWRen9V402T8aUGYsCHOmfoisV3ZSg03gAFIbLq8TnWOJ0f4cALtnSEUg==}
     dev: true
 
   /@types/semver/7.5.0:
