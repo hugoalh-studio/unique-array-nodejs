@@ -5,7 +5,7 @@
 > | **Legend** | **Description** |
 > |:-:|:--|
 > | L | **LTS:** Long term supported. |
-> | ✔ | **Active / Current:** Currently supported. |
+> | ✔️ | **Active / Current:** Currently supported. |
 > | 👎{🐛} | **Partially (Issue):** Partially supported due to confirmed contains bugs and/or issues. |
 > | 👎{🧓} | **Partially (Old):** Partially supported due to deprecated by newer versions. |
 > | ❌{🐛} | **No (Issue):** Not supported due to confirmed contains bugs and/or issues. |
@@ -14,7 +14,7 @@
 | **Versions** | **Status** | **Target - NodeJS** |
 |:-:|:-:|:-:|
 | v3.0.X | L | ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0 |
-| v2.0.X | ✔ | ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0 |
+| v2.0.X | ✔️ | ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0 |
 | v1.X.X | ❌{🧓} | *Multiple* |
 
 ## Report Vulnerability
