@@ -9,14 +9,14 @@ export default function uniqueArray(item) {
     if (!Array.isArray(item)) {
         throw new TypeError(`Argument \`item\` must be type of array!`);
     }
-    let resultFinal = [];
+    let result = [];
     for (let itemElement of new Set(item).values()) {
-        if (resultFinal.length === 0 ||
-            !resultFinal.some((resultElement) => {
+        if (result.length === 0 ||
+            !result.some((resultElement) => {
                 return equal(itemElement, resultElement);
             })) {
-            resultFinal.push(itemElement);
+            result.push(itemElement);
         }
     }
-    return resultFinal;
+    return result;
 }

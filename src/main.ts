@@ -9,16 +9,16 @@ export default function uniqueArray<T>(item: T[]): T[] {
 	if (!Array.isArray(item)) {
 		throw new TypeError(`Argument \`item\` must be type of array!`);
 	}
-	let resultFinal: T[] = [];
+	let result: T[] = [];
 	for (let itemElement of new Set<T>(item).values()) {
 		if (
-			resultFinal.length === 0 ||
-			!resultFinal.some((resultElement: T): boolean => {
+			result.length === 0 ||
+			!result.some((resultElement: T): boolean => {
 				return equal(itemElement, resultElement);
 			})
 		) {
-			resultFinal.push(itemElement);
+			result.push(itemElement);
 		}
 	}
-	return resultFinal;
+	return result;
 }
