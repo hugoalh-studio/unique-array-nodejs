@@ -4,6 +4,9 @@ import equal from "@hugoalh/equal";
  * @template {unknown} T
  * @param {T[]} item Array that need to have unique elements.
  * @returns {T[]} An array with unique elements.
+ * @example
+ * uniqueArray([{ foo: "bar" }, { foo: "bar" }, { bar: "gaz" }]);
+ * //=> [{ foo: "bar" }, { bar: "gaz" }]
  */
 export default function uniqueArray(item) {
     if (!Array.isArray(item)) {

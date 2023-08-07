@@ -29,10 +29,8 @@ import uniqueArray from "@hugoalh/unique-array";// Default Import
 
 ### API
 
-#### Function
-
 ```ts
-uniqueArray<T>(item: T[]): T[];
+function uniqueArray<T>(item: T[]): T[];
 ```
 
 ### Example
