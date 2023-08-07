@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@hugoalh/equal': ^1.0.2
+  '@hugoalh/equal': ^1.0.3
   '@typescript-eslint/eslint-plugin': ^6.2.1
   '@typescript-eslint/parser': ^6.2.1
   eslint: ^8.46.0
@@ -9,7 +9,7 @@ specifiers:
   typescript: ^5.1.6
 
 dependencies:
-  '@hugoalh/equal': 1.0.2
+  '@hugoalh/equal': 1.0.3
 
 devDependencies:
   '@typescript-eslint/eslint-plugin': 6.2.1_j6xx3z2bnxhrxzjhzeomjwp6aa
@@ -62,8 +62,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@hugoalh/equal/1.0.2:
-    resolution: {integrity: sha512-ndFlWgpQ29l0Ie0GPfhGXLkG9PKpKm6pQMZvK806VYnaz3ducmSruGuTMQUowtezUzdGO5qSO2vxYb8XhM80Mw==}
+  /@hugoalh/equal/1.0.3:
+    resolution: {integrity: sha512-VcDMGeFWfnQWgESqW97LjEKFhZQMrHl9pkgFMbsqyJOEFNIR8ig8DyCsZ6ZhD92i18mbMbmOLiXcw3BEdTHdGA==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.13.0}
     dev: false
 
