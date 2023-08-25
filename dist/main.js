@@ -12,8 +12,8 @@ export default function uniqueArray(item) {
     if (!Array.isArray(item)) {
         throw new TypeError(`Argument \`item\` must be type of array!`);
     }
-    let result = [];
-    for (let itemElement of new Set(item).values()) {
+    const result = [];
+    for (const itemElement of new Set(item).values()) {
         if (result.length === 0 ||
             !result.some((resultElement) => {
                 return equal(itemElement, resultElement);
