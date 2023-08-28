@@ -10,7 +10,7 @@ import equal from "@hugoalh/equal";
  */
 export default function uniqueArray<T>(item: T[]): T[] {
 	if (!Array.isArray(item)) {
-		throw new TypeError(`Argument \`item\` must be a unknown[]!`);
+		throw new TypeError(`Argument \`item\` is not an Array!`);
 	}
 	const result: T[] = [];
 	for (const itemElement of new Set<T>(item).values()) {
