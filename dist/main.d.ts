@@ -7,5 +7,6 @@
  * uniqueArray([{ foo: "bar" }, { foo: "bar" }, { bar: "gaz" }]);
  * //=> [{ foo: "bar" }, { bar: "gaz" }]
  */
-export default function uniqueArray<T>(item: T[]): T[];
+export declare function uniqueArray<T>(item: T[]): T[];
+export default uniqueArray;
 //# sourceMappingURL=main.d.ts.map

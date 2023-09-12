@@ -8,10 +8,7 @@ import equal from "@hugoalh/equal";
  * uniqueArray([{ foo: "bar" }, { foo: "bar" }, { bar: "gaz" }]);
  * //=> [{ foo: "bar" }, { bar: "gaz" }]
  */
-export default function uniqueArray(item) {
-    if (!Array.isArray(item)) {
-        throw new TypeError(`Argument \`item\` is not an Array!`);
-    }
+export function uniqueArray(item) {
     const result = [];
     for (const itemElement of new Set(item).values()) {
         if (result.length === 0 ||
@@ -23,3 +20,4 @@ export default function uniqueArray(item) {
     }
     return result;
 }
+export default uniqueArray;

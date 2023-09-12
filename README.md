@@ -10,33 +10,41 @@
 
 A NodeJS module to return unique array elements without any duplicated elements by ignore their reference points.
 
-> **🔗 Other Edition:**
->
-> - [Deno](https://github.com/hugoalh-studio/unique-array-deno)
+## 🔰 Begin
 
-## 📓 Documentation
+### NodeJS
 
-### Getting Started
+- **Target Version:** ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0, &:
+  - TypeScript >= v5.1.0 *\[Development\]*
+- **Require Permission:** *N/A*
+- **Domain/Registry:**
+  - [NPM](https://www.npmjs.com/package/@hugoalh/unique-array)
+    ```sh
+    npm install @hugoalh/unique-array
+    ```
+    ```js
+    import ... from "@hugoalh/unique-array";
+    ```
 
-- NodeJS ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0
+> **ℹ️ Notice:** It is also able to import part of the module with sub path if available, see [file `package.json`](./package.json) property `exports` for available sub paths.
 
-```sh
-npm install @hugoalh/unique-array
-```
+## 🧩 API
 
-```js
-import uniqueArray from "@hugoalh/unique-array";// Default Import
-```
+- ```ts
+  function uniqueArray<T>(item: T[]): T[];
+  ```
 
-### API
+> **ℹ️ Notice:** Documentation is included inside the script file.
 
-```ts
-function uniqueArray<T>(item: T[]): T[];
-```
-
-### Example
+## ✍️ Example
 
 - ```js
+  import uniqueArray from "@hugoalh/unique-array";
+
   uniqueArray([{ foo: "bar" }, { foo: "bar" }, { bar: "gaz" }]);
   //=> [{ foo: "bar" }, { bar: "gaz" }]
   ```
+
+## 🔗 Other Edition
+
+- [Deno](https://github.com/hugoalh-studio/unique-array-deno)
