@@ -57,7 +57,7 @@ A NodeJS module to return unique array elements without any duplicated elements 
 ## ✍️ Example
 
 - ```js
-  import uniqueArray from "@hugoalh/unique-array";
+  import { uniqueArray } from "@hugoalh/unique-array";
 
   uniqueArray([{ foo: "bar" }, { foo: "bar" }, { bar: "gaz" }]);
   //=> [{ foo: "bar" }, { bar: "gaz" }]

@@ -1,4 +1,4 @@
-import equal from "@hugoalh/equal";
+import { equal } from "@hugoalh/equal";
 /**
  * Return unique array elements without any duplicated elements by ignore their reference points.
  * @template {unknown} T
