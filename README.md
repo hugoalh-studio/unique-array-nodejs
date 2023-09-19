@@ -22,7 +22,7 @@ A NodeJS module to return unique array elements without any duplicated elements 
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/unique-array)
     ```sh
-    bun add @hugoalh/unique-array
+    bun add @hugoalh/unique-array[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/unique-array[@<Tag>]";
@@ -38,7 +38,7 @@ A NodeJS module to return unique array elements without any duplicated elements 
 - **Domain/Registry:**
   - [NPM](https://www.npmjs.com/package/@hugoalh/unique-array)
     ```sh
-    npm install @hugoalh/unique-array
+    npm install @hugoalh/unique-array[@<Tag>]
     ```
     ```js
     import ... from "@hugoalh/unique-array";
