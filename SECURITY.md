@@ -17,8 +17,6 @@
 | v2.X.X | ❌{🧓} | *N/A* | ^ v12.20.0 \|\| ^ v14.15.0 \|\| >= v16.13.0 |
 | v1.X.X | ❌{🧓} | *N/A* | *Multiple* |
 
-## Report Vulnerability
+## Report A Vulnerability
 
-If you believe you have found any security vulnerability, please report it via the [Security Advisories system](https://github.com/hugoalh-studio/unique-array-nodejs/security/advisories/new) instead of create an issue and/or report it publicly.
-
-All new reports may need `~48 hours (~2 days)` to begin the process.
+You can report a security vulnerability by [create a security vulnerability report](https://github.com/hugoalh/hugoalh/blob/main/universal-guide/contributing.md#create-a-security-vulnerability-report).
