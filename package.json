@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/unique-array",
-	"version": "3.0.5",
+	"version": "4.0.0",
 	"description": "A module to return unique array elements without any duplicated elements by ignore their reference points.",
 	"keywords": [
 		"array",
@@ -26,6 +26,7 @@
 		"@hugoalh/equal": "^1.0.6"
 	},
 	"devDependencies": {
+		"@stylistic/eslint-plugin": "^1.5.3",
 		"@typescript-eslint/eslint-plugin": "^6.18.0",
 		"@typescript-eslint/parser": "^6.18.0",
 		"eslint": "^8.56.0",
@@ -33,7 +34,7 @@
 		"typescript": "^5.3.3"
 	},
 	"engines": {
-		"node": "^12.20.0 || ^14.15.0 || >=16.13.0"
+		"node": ">=16.13.0"
 	},
 	"private": false,
 	"publishConfig": {
