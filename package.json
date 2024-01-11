@@ -23,12 +23,12 @@
 		"url": "git+https://github.com/hugoalh-studio/unique-array-nodejs.git"
 	},
 	"dependencies": {
-		"@hugoalh/equal": "^1.0.6"
+		"@hugoalh/equal": "^2.0.0"
 	},
 	"devDependencies": {
 		"@stylistic/eslint-plugin": "^1.5.3",
-		"@typescript-eslint/eslint-plugin": "^6.18.0",
-		"@typescript-eslint/parser": "^6.18.0",
+		"@typescript-eslint/eslint-plugin": "^6.18.1",
+		"@typescript-eslint/parser": "^6.18.1",
 		"eslint": "^8.56.0",
 		"eslint-plugin-only-warn": "^1.1.0",
 		"typescript": "^5.3.3"
