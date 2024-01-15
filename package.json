@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/unique-array",
-	"version": "4.0.0",
+	"version": "4.0.1",
 	"description": "A module to return unique array elements without any duplicated elements by ignore their reference points.",
 	"keywords": [
 		"array",
@@ -24,7 +24,7 @@
 		"url": "git+https://github.com/hugoalh-studio/unique-array-nodejs.git"
 	},
 	"dependencies": {
-		"@hugoalh/equal": "^2.0.0"
+		"@hugoalh/equal": "^2.0.1"
 	},
 	"devDependencies": {
 		"@stylistic/eslint-plugin": "^1.5.3",
