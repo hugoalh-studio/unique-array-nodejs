@@ -24,7 +24,7 @@
 		"url": "git+https://github.com/hugoalh-studio/unique-array-nodejs.git"
 	},
 	"scripts": {
-		"build-dist": "tsc"
+		"build": "tsc"
 	},
 	"dependencies": {
 		"@hugoalh/equal": "^2.0.1"
